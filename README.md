@@ -26,7 +26,7 @@ Windows Registry Editor Version 5.00
 - c、为什么要用蒲公英组网，是不是多此一举？ 答：并不是，不用蒲公英直接使用服务器的外网ip测试过了会很卡，卡到无法正常使用。
   
 ## 2、每次输入密码很麻烦，SSH 无密码登录服务器的办法
-- 本地windows命令行运行：ssh-keygen -t rsa
-- 本地windows命令行到.ssh文件夹：cd .ssh
-- 本地windows命令行上传公钥文件到linux服务器：scp id_rsa.pub ubuntu@172.16.0.198:~/.ssh/authorized_keys
-- 本地windows命令行无密码登录linux服务器：ssh ubuntu@172.16.0.198
+- 1、本地windows命令行运行：ssh-keygen -t rsa
+- 2、本地windows命令行到.ssh文件夹：cd .ssh
+- 3、本地windows命令行上传公钥文件到linux服务器：scp id_rsa.pub ubuntu@172.16.0.198:~/.ssh/authorized_keys
+- 4、本地windows命令行无密码登录linux服务器：ssh ubuntu@172.16.0.198
