@@ -5,15 +5,15 @@
 
 ## 1.1本地电脑安装蒲公英
 
-- 客户端windows下载并安装：https://d.oray.com/pgy/windows/PgyVisitor_6.3.0_x64.exe
-- 客户端windows登录贝锐账号，没有账号先创建账号，免费的可以组网三台设备，如果家里一台电脑，公司一台电脑，服务器一台电脑，这样免费的刚刚好。
-- 客户端windows在蒲公英客户端软件中取得服务器蒲公英网络ip如：172.16.0.198
+- 客户端windows下载并安装：https://d.oray.com/pgy/windows/PgyVisitor_6.3.0_x64.exe  #没有账号先创建账号，免费的可以组网三台设备，如果家里一台电脑，公司一台电脑，服务器一台电脑，这样免费的刚刚好，取得服务器蒲公英网络ip我这里是：172.16.0.198
 
 ## 1.2外网服务器安装蒲公英
 
-- 服务器linux命令行下载蒲公英：wget https://pgy.oray.com/softwares/153/download/2156/PgyVisitor_6.2.0_x86_64.deb
-- 服务器linux命令行安装蒲公英：sudo dpkg -i PgyVisitor_6.2.0_x86_64.deb
-- 服务器linux命令行登录之前注册的贝锐账号：pgyvisitor login
+```
+wget https://pgy.oray.com/softwares/153/download/2156/PgyVisitor_6.2.0_x86_64.deb #下载
+sudo dpkg -i PgyVisitor_6.2.0_x86_64.deb #安装
+pgyvisitor login #登录
+```
 
 ## 1.3外网服务器安装配置dante-server
 
