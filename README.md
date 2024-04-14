@@ -35,6 +35,7 @@ Windows Registry Editor Version 5.00
 # 方法2：
 
 这里介绍一种简易的上网外的方法：使用外网ubutu服务器Dante Server+蒲公英
+![1713104855676](./效果.png)
 ## 1.1本地电脑安装蒲公英
 - 客户端windows下载并安装：https://d.oray.com/pgy/windows/PgyVisitor_6.3.0_x64.exe
 - 客户端windows登录贝锐账号，没有账号先创建账号，免费的可以组网三台设备，如果家里一台电脑，公司一台电脑，服务器一台电脑，这样免费的刚刚好。
